@@ -33,3 +33,7 @@ spec:
         host: helloworld
         port:
           number: 5000
+    timeout: 10s
+    retries:
+      attempts: 3
+      perTryTimeout: 2s
